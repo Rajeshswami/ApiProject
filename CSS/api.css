@@ -1,0 +1,149 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: url("../Images/newsnow.jpg");
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100%;
+}
+a:hover {
+  cursor: pointer;
+}
+
+#headerBlock .navbar {
+  background-color: #fff !important;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
+    0 2px 6px 2px rgba(60, 64, 67, 0.15);
+}
+#headerBlock .navbar .navbar-brand img {
+  width: 49px;
+}
+#headerBlock .navbar .navbar-brand {
+  margin-right: 50px;
+}
+#headerBlock .navbar .nav-link {
+  color: #5f6368;
+  font-size: 14px;
+  font-weight: bold;
+}
+#headerBlock nav {
+  padding: 0px 20px;
+}
+#headerBlock nav .nav-link {
+  padding: 15px 20px;
+}
+#headerBlock nav .nav-link:hover {
+  border-bottom: 3px solid #5f6368;
+}
+#headerBlock nav input {
+  padding: 0px 0px 0px 34px;
+  border: none;
+  background-color: #f1f3f4;
+}
+.position-absolute {
+  position: absolute !important;
+  top: 15px;
+  left: 10px;
+  color: #5f6368;
+}
+
+#articlesContent {
+  height: 200px;
+  width: 120%;
+  border-radius: 2%;
+}
+#articlesContent img {
+  height: 100px;
+  width: 100%;
+}
+
+ul li {
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 8px;
+  font-size: 14px;
+}
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* Sport Section */
+#sportsSection {
+  border-right: 1px solid #ccc;
+  height: 100%;
+  background: #fff;
+  box-shadow: 1px 1px 3px 1px #ccc;
+}
+
+#articleContent .enterImg {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+  padding: 10px;
+  border-radius: 4px;
+}
+#articleContent .row {
+  border-bottom: 1px solid #eee;
+  box-sizing: border-box;
+  width: unset;
+}
+/* Entertainment Block */
+#entertainmentAllTemplate ul li {
+  border: none;
+}
+.text-muted {
+  font-size: 11px;
+  text-transform: capitalize;
+  padding: 0px 8px;
+}
+
+/* Covid Block */
+#covidBlock section {
+  display: flex;
+}
+
+#covidBlock section div {
+  background: #fff;
+  padding: 7px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 5px 1px #eee;
+  margin: 4px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+#covidBlock section div h4 {
+  margin: 4px 10px 4px 0px;
+  padding: 7px;
+}
+
+.icon img {
+  height: 39px !important;
+  width: auto !important;
+  object-fit: scale-down;
+}
+
+/* Weather Block */
+#weatherTemplate .card-body p,
+#weatherTemplate span {
+  padding: 4px;
+  text-transform: capitalize;
+  font-size: 12px;
+  color: #03a9f4;
+  font-weight: bold;
+  border-bottom: 1px solid #eee;
+  margin: 10px;
+}
+#weatherTemplate .card-body div {
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
